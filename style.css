@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #614437;
+    color: white;
+    font-family: 'DM Serif Display', sans-serif;
+    background-image: url();  
+    transition: background 0.1s ease 0s;
+    height: 100vh;
+}
+
+body::-webkit-scrollbar{
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
+  
+body::-webkit-scrollbar{
+      display: none;
+  }
+
+.quote-wrapper{
+    max-width: 450px;
+    max-height: 400px;
+    margin: 0 10px;
+    
+}
+
+.quote-heading{
+    text-align: center;
+    font-size: 25px;
+}
+
+.quote-wrapper .quote-body .icon-quote{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+.quote-wrapper .quote-body .icon-quote .icon{
+    margin-right: 5px;
+}
+
+.quote-wrapper .quote-body .author{
+    padding-bottom: 30px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.quote-wrapper .quote-body .quote-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    padding: 7px 0;
+}
+
+.quote-wrapper .quote-body .quote-button .social a {
+    font-size: 40px;
+    color: white;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
+
+.quote-wrapper .quote-body .quote-button .btn button {
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.quote-wrapper .footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.second-color{background: #F1D6BF};
+.third-color{background: #E8CEB7};
+.forth-color{background: #DCBEA4};
+.fifth-color{background: #B49172};
+.sixth-color{background: #977251};
+.seventh-color{background: #845F3F};
+
